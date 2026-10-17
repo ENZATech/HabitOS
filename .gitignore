@@ -1,0 +1,24 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Compiled files
+*.class
+*.jar
+*.aar
+*.apk
+*.aab
+
+# Log files
+*.log
+
+# Signing keys (NEVER commit these)
+*.jks
+*.keystore

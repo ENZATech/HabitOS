@@ -1,0 +1,5 @@
+-keep class com.habitos.app.** { *; }
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable
+-keep public class * extends java.lang.Exception
+-keep class androidx.room.** { *; }

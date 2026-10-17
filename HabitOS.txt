@@ -1,0 +1,20 @@
+I want to build a real, 100% native Android application called "habitOS" using [Kotlin + Jetpack Compose / Flutter] (NOT an HTML/WebView wrapper) and compile it into a standalone APK using a GitHub Actions workflow.
+
+1. Visual Theme & Color Palette:
+- Matte Obsidian Dark theme: Background `#0C0A09`, Card Surface `#171412`, Sidebar/Bottom Nav `#141210`, Borders `#292524`, Primary Accent Emerald-Teal (`#10B981` to `#0D9488`), Streak/Highlight Amber (`#F59E0B`), and Alert Rose (`#F43F5E`).
+- Mobile-first native layout with a 5-tab Bottom Navigation Bar: My Day, 7-Day Habit Grid, Birthdays, Planned, and Lists.
+
+2. Core Features (100% Offline Local Storage):
+- Clean Slate on First Launch: Start with 0 preloaded tasks, 0 fake streaks, and 0 sample birthdays.
+- Microsoft To-Do Features: "My Day" view with a "Suggestions" sheet for unfinished tasks, "Important" star toggle, "Planned" view (Overdue, Today, Upcoming), Custom Lists with color tags, and a Task Detail sheet with Subtasks (Steps) and auto-saving Notes.
+- 7-Day Interactive Habit Matrix & Weekly Streak Chart: Mon–Sun check-in grid for daily habits, active/record streak counters, Perfect Day crown (👑) detection, haptic vibration on check-in, and a Weekly Completion Bar/Trend Chart.
+- Direct Delete + Undo: A direct Trash/Delete button on every task and habit row with a 5-second Undo snackbar.
+- Security-Protected Clear Data Vault: A "Clear Data" button locked behind a 4-digit PIN (default `1234`, customizable) + typing `CLEAR` in uppercase so that all the data/streaks get reset to initial state for a fresh new start, and also make a delete button for the removal of anu task, daily habit or someone's birthday.
+- Friends' Birthdays & Belated Rescue: Tracks Today, Upcoming, and Yesterday's missed birthdays ("🚨 YESTERDAY - Missed!") with a 1-tap Belated/Birthday Wish generator that copies text or opens WhatsApp.
+- Give me a notification to remind me about someone's birthday , a day before and on the the day of their birthday (12 midnight) so that i keep it in my mind.
+- True Native Background EOD Notification: Uses native Android AlarmManager / Local Notifications to send a real OS notification at 21:00 (configurable) if any daily habit, My Day task, or birthday wish is still incomplete—even when the app is closed.
+
+3. Deliverable:
+Give me the clean project file structure and a working `.github/workflows/build.yml` file (plus properly padded Adaptive Icon instructions so the app icon is never cropped) so I can push it to my GitHub repo and download the compiled native APK.
+
+4. Watch the screenshot i have uploaded, this is the web view of the application you are going to make but in the form of a mobile application.

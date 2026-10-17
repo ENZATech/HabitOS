@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Safe zone is 66dp centered, so content starts at 21dp -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M54,26 C38.536,26 26,38.536 26,54 C26,69.464 38.536,82 54,82 C69.464,82 82,69.464 82,54 C82,38.536 69.464,26 54,26 Z M54,36 C63.941,36 72,44.059 72,54 C72,63.941 63.941,72 54,72 C44.059,72 36,63.941 36,54 C36,44.059 44.059,36 54,36 Z" />
+    <path
+        android:pathData="M45,54 L51,62 L65,44"
+        android:strokeWidth="4.5"
+        android:strokeColor="#10B981"
+        android:fillColor="@android:color/transparent"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>
