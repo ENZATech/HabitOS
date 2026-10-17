@@ -1,13 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">habitOS</string>
-    <string name="channel_eod">EOD Reminder</string>
-    <string name="channel_birthday">Birthday Alerts</string>
-    <string name="channel_eod_desc">Daily end-of-day habit completion reminders</string>
-    <string name="channel_birthday_desc">Birthday notifications for friends</string>
-    <string name="tab_my_day">My Day</string>
-    <string name="tab_habit_matrix">Habit Matrix</string>
-    <string name="tab_birthdays">Birthdays</string>
-    <string name="tab_planned">Planned</string>
-    <string name="tab_lists">Lists</string>
 </resources>

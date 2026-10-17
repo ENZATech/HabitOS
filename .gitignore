@@ -1,24 +1,25 @@
 *.iml
-.gradle
+.gradle/
 /local.properties
-/.idea
+/.idea/
 .DS_Store
-/build
-/captures
+/build/
+app/build/
+/captures/
 .externalNativeBuild
 .cxx
 local.properties
 
-# Compiled files
 *.class
-*.jar
-*.aar
 *.apk
 *.aab
+*.ap_
+*.dex
 
-# Log files
+# Do not ignore the Gradle wrapper JAR
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
 *.log
-
-# Signing keys (NEVER commit these)
 *.jks
 *.keystore
